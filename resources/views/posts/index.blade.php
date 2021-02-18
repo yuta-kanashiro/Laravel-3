@@ -22,7 +22,7 @@
                 </p>
             </div>
             <div class="card-footer">
-                <span　class="mr-2">
+                <span class="mr-2">
                     投稿日時
                 </span>
             </div>
