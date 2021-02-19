@@ -14,11 +14,11 @@
         <div class="card mb-4">
             
             <div class="card-header mb-2">
-                Title
+                {{$post->title}}
             </div>
             <div class="card-body">
                 <p class="card-text">
-                    body
+                    {{$post->body}}
                 </p>
             </div>
             <div class="card-footer">
