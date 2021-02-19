@@ -14,16 +14,20 @@
         <div class="card mb-4">
             
             <div class="card-header mb-2">
-                {{$post->title}}
+                {{ $post->title }}
             </div>
             <div class="card-body">
                 <p class="card-text">
-                    {{$post->body}}
+                    {{ $post->body }}
                 </p>
+                <a class="card-link" href={{route('posts.show',['post' => $post])}}>
+                    詳細を見る
+                </a>
+                
             </div>
             <div class="card-footer">
                 <span class="mr-2">
-                    投稿日時
+                    投稿日時 {{ $post->created_at }}
                 </span>
             </div>
             
